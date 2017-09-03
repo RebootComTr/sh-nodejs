@@ -1,4 +1,9 @@
 #!/usr/bin/env bash
-## Install MongoDB and Node.js
-sudo bash ./mongo/install.sh
-sudo bash ./node/install.sh
+
+# Install MongoDB
+cd mongo
+sudo bash install.sh
+
+# Install Node.js
+cd ../node
+sudo bash install.sh
